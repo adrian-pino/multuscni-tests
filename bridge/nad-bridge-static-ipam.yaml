@@ -1,0 +1,14 @@
+apiVersion: "k8s.cni.cncf.io/v1"
+kind: NetworkAttachmentDefinition
+metadata:
+  name: nad-bridge-cni0
+  namespace: default
+spec:
+  config: '{
+            "cniVersion": "0.3.0",
+            "type": "bridge",
+            "bridge": "cni0",
+            "ipam": {
+                "type": "static"
+            }
+      }'
