@@ -1,4 +1,5 @@
-apiVersion: v1
+# This config could break networking. The specified host interface disappears in the root network namespace (default host network namespace).
+# Make sure you know what you're doing
 kind: Pod
 metadata:
   name: busybox-kubenode1
@@ -13,7 +14,7 @@ metadata:
       ]
 spec:
   containers:
-  - name: busybox-kubemaster
+  - name: busybox-kubenode-1
     image: busybox
     command:
       - sleep

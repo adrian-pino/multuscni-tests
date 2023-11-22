@@ -14,7 +14,7 @@ metadata:
       ]
 spec:
   containers:
-  - name: busybox-kubemaster
+  - name: busybox-kubemaster-2
     image: busybox
     command:
       - sleep

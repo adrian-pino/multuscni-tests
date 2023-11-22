@@ -4,7 +4,7 @@
 # With macvlan I do see such traffic flowing from the ens3 interface...
 
 # From one pod I can see the following:
-k exec -it busybox-kubemaster -- sh
+k exec -it busybox-kubemaster-1 -- sh
  
 / # ip a
 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue qlen 1000
