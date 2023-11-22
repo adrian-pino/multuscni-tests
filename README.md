@@ -17,7 +17,7 @@ This repository contains configurations and YAML definitions for testing differe
 - **Macvlan**
 - **Ipvlan**
 
-Additionally, a `clean` directory is included for cleanup scripts and instructions in /clean. This script could be run in case of a weird behaviour in MultusCNI.
+Additionally, a `clean` directory is included for cleanup instructions. This script could be run in case of a weird behaviour in MultusCNI.
 
 To provide better context, different figures extracted from [Red Hat blog post on using the Multus CNI in OpenShift](https://cloud.redhat.com/blog/using-the-multus-cni-in-openshift) have been attached:
 
