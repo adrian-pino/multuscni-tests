@@ -21,13 +21,14 @@ Additionally, a `clean` directory is included for cleanup instructions. This scr
 
 To provide better context, different figures extracted from [Red Hat blog post on using the Multus CNI in OpenShift](https://cloud.redhat.com/blog/using-the-multus-cni-in-openshift) have been attached:
 
-![Bridge Configuration](images/bridge.png)
+<img src="images/bridge.png" alt="Bridge Configuration" width="900"/>
 
-![Host-Device Configuration](images/host-device.png)
+<img src="images/host-device.png" alt="Host-device Configuration" width="900"/>
 
-![Macvlan Configuration](images/macvlan.png)
+<img src="images/macvlan.png" alt="Macvlan Configuration" width="900"/>
 
-![Ipvlan Configuration](images/ipvlan.png)
+<img src="images/ipvlan.png" alt="Ipvlan Configuration" width="900"/>
+
 
 ## Getting Started
 
