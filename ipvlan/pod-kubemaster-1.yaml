@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: dnsutils-kubemaster
+  name: busybox-kubemaster
   namespace: default
   annotations:
     k8s.v1.cni.cncf.io/networks: |
@@ -14,7 +14,7 @@ metadata:
       ]
 spec:
   containers:
-  - name: dnsutils-kubemaster
+  - name: busybox-kubemaster
     image: busybox
     command:
       - sleep
