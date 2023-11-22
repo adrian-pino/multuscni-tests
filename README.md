@@ -12,14 +12,12 @@ Multus CNI provides the flexibility of combining different networking solutions,
 
 This repository contains configurations and YAML definitions for testing different network interfaces using Multus CNI, including:
 
-- **Bridge:** Network configurations for creating a bridge network.
-- **Host-Device:** Configurations for directly attaching a host's network device to a pod.
-- **Macvlan:** Demonstrations of using the macvlan interface for pod networking.
-- **Ipvlan:** Examples of using the ipvlan interface, which is similar to macvlan but with some differences in implementation and use cases.
+- **Bridge**
+- **Host-Device**
+- **Macvlan**
+- **Ipvlan**
 
-Additionally, a `clean` directory is included for cleanup scripts and instructions in /clean
-
-Each configuration type tested in this repository is accompanied by an illustrative image:
+Additionally, a `clean` directory is included for cleanup scripts and instructions in /clean. This script could be run in case of a weird behaviour in MultusCNI.
 
 To provide better context, different figures extracted from [Red Hat blog post on using the Multus CNI in OpenShift](https://cloud.redhat.com/blog/using-the-multus-cni-in-openshift) have been attached:
 
